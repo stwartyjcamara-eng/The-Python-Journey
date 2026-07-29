@@ -25,34 +25,17 @@ O primeiro dígito do CPF é 7
 """
 while True:
     cpf = input('Informe o CPF: ').lower().replace(".","").replace("-","").strip()
-    print(cpf)
     if cpf.isdigit():
         break
     else:
         cpf = input('Por favor, digite números válido, Informe o CPF: ').lower().replace(".","").replace("-","").strip()
 
-nove_digitos = cpf[:9]
-contador_regressivo = 10
-
+cpf = cpf[:9]
 soma = 0
-for digito in nove_digitos:
-    soma +=  int(digito) * contador_regressivo
-    contador_regressivo -= 1
-digito1 = ((soma * 10) % 11) 
-digito1 = digito1 if digito1 <= 9 else 0
-print(digito1)
-
-dez_digitos = nove_digitos + str(digito1)
-contador_regressivo = 11
-
-soma = 0
-for digito2 in dez_digitos:
-    soma +=  int(digito2) * contador_regressivo
-    contador_regressivo -= 1
-digito2 = ((soma * 10) % 11) 
-digito2 = digito2 if digito2 <= 9 else 0
-print(digito2)
-print(nove_digitos + str(digito1) + str(digito2))
-
-
+for i in range(10, 1, -1):
+    soma += int(cpf[10-i]) * i
+digito = (soma * 10) % 11
+if digito > 9:
+    digito = 0
+print(f'O primeiro dígito do CPF é {digito}')
 
