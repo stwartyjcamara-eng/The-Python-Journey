@@ -1,30 +1,46 @@
-- Este repositório contém todos os meus exercícios e pequenos projetos de aprendizado em Python, cobrindo os fundamentos da linguagem.
+# 🐍 The Python Journey
 
-- ## 📂 Estrutura do Repositório
+[![Python](https://img.shields.io/badge/Python-3.13+-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
+[![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)](https://git-scm.com/)
+[![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?logo=visualstudiocode&logoColor=white)](https://code.visualstudio.com/)
 
-O código está organizado em pastas por tópico de aprendizado.
+Repositório dedicado ao registro da minha jornada de aprendizado em Python. Aqui compartilho exercícios, anotações de estudo e pequenos projetos desenvolvidos ao longo dos cursos e práticas.
 
+---
+
+## 📌 Progresso dos Módulos
+
+- [x] **Módulo 1:** Lógica de Programação Básica
+- [ ] **Módulo 2:** Python Intermediário _(Em andamento)_
+- [ ] **Módulo 3:** Programação Orientada a Objetos (POO)
+- [ ] **Módulo 4:** Tópicos Avançados & Módulos Específicos
+
+---
+
+## 📂 Estrutura do Repositório
+
+```text
 The-Python-Journey/
-├─`01_logica_de_programacao_basica/`
-├─ `modulo_01/`
-├─`modulo_02/`
+│
+├── 01_logica_de_programacao_basica/
+│   ├── modulo_01/               # Conceitos fundamentais e estruturas condicionais
+│   └── modulo_02/               # Estruturas de repetição e tipos de dados básicos
+│
+├── 02_python_intermediario/
+│   └── 01_funcoes/              # Funções, escopo, args, kwargs e lambdas
+│
+└── README.md
 
-├─`02_python_intermediario/`
-├─`01_funcoes/`
+🛠️ Tecnologias e Ferramentas
+Linguagem: Python 3.13+
 
-├─`README.me`
+Editor de Código: Visual Studio Code
 
----
+Controle de Versão: Git & GitHub
 
-### 🛠 Tecnologias
+👤 Autor
+Stwarty J Camara
 
-- **Python** (Versão 3.13+)
-- **Git** e **GitHub** (Controle de Versão)
-- **Visual Studio Code** (IDE)
 
----
-
-- ### 👤 Autor
-- **Stwarty J Camara**
-- 📲 Linkedin: https://www.linkedin.com/in/stwarty-j-camara
-- 📧 Email: stwartyjcamara@gmail.com
+<FollowUp label="Quer ajuda para criar um template de commit padronizado para as aulas?" query="Pode me dar exemplos de como padronizar minhas mensagens de commit do Git para esse repositório?"/>
+```
