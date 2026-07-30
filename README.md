@@ -48,3 +48,5 @@ The-Python-Journey/
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/stwarty-j-camara)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:stwartyjcamara@gmail.com)
+
+> 💡 **Exercícios Práticos:** As resoluções de exercícios e desafios de fixação estão centralizadas no meu repositório dedicado: [Exercicios-em-Python](https://github.com/stwartyjcamara-eng/Exercicios-em-Python).
