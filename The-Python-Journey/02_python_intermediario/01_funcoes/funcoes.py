@@ -1,8 +1,14 @@
 """
-Introdução às funções em Python
-Funções são blocos de código que podem ser reutilizados em diferentes partes do programa. Elas ajudam a organizar o código, tornando-o mais legível e fácil de manter. 
-Em Python, funções são definidas usando a palavra-chave `def` seguida pelo nome da função e parênteses.
-Por padrão, funçoes retornam None, mas podem retornar valores usando a palavra-chave `return`.
+======================================================================
+Curso:  Python 3 do Zero ao Avançado (Udemy - Luiz Otávio Miranda)
+Módulo: Python Intermediário
+Tópico: Funções
+Arquivo: funcoes.py
+Autor:  Stwarty J Camara
+======================================================================
+
+Descrição:
+    Introdução às funções em Python, incluindo exemplos de funções simples, funções com parâmetros, funções com retorno de valor e funções com múltiplos parâmetros.
 """
 
 # Exemplo de função simples:
