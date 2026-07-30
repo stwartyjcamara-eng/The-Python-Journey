@@ -5,15 +5,14 @@
 O código está organizado em pastas por tópico de aprendizado.
 
 The-Python-Journey/
-│
-├── `01_logica_de_programacao_basica/`
-│ ├── `modulo_01/`
-│ └── `modulo_02/`
-│
-├── `02_python_intermediario/`
-│ ├── `01_funcoes/`
-│
-└── `README.me`
+├─`01_logica_de_programacao_basica/`
+├─ `modulo_01/`
+├─`modulo_02/`
+
+├─`02_python_intermediario/`
+├─`01_funcoes/`
+
+├─`README.me`
 
 ---
 
