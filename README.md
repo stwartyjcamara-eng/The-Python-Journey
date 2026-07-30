@@ -30,6 +30,7 @@ The-Python-Journey/
 │   └── 01_funcoes/              # Funções, escopo, args, kwargs e lambdas
 │
 └── README.md
+```
 
 🛠️ Tecnologias e Ferramentas
 Linguagem: Python 3.13+
@@ -40,5 +41,3 @@ Controle de Versão: Git & GitHub
 
 👤 Autor
 Stwarty J Camara
-
-```
