@@ -41,6 +41,4 @@ Controle de Versão: Git & GitHub
 👤 Autor
 Stwarty J Camara
 
-
-<FollowUp label="Quer ajuda para criar um template de commit padronizado para as aulas?" query="Pode me dar exemplos de como padronizar minhas mensagens de commit do Git para esse repositório?"/>
 ```
