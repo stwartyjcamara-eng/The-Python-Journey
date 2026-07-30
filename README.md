@@ -32,12 +32,19 @@ The-Python-Journey/
 └── README.md
 ```
 
-🛠️ Tecnologias e Ferramentas
-Linguagem: Python 3.13+
+---
 
-Editor de Código: Visual Studio Code
+## 🛠️ Tecnologias e Ferramentas
 
-Controle de Versão: Git & GitHub
+- **Linguagem:** Python `3.13+`
+- **Ambiente de Desenvolvimento:** Visual Studio Code (VS Code)
+- **Controle de Versão:** Git & GitHub
 
-👤 Autor
-Stwarty J Camara
+---
+
+## 👤 Autor
+
+**Stwarty J Camara**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/stwarty-j-camara)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:stwartyjcamara@gmail.com)
