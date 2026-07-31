@@ -28,6 +28,19 @@ def soma(a, b):
 resultado = soma(5, 3)  # Chamando a função e armazenando o resultado
 print(f"A soma de 5 e 3 é: {resultado}")
 
+# Função com retorno de valor e tratamento de exceções:
+def soma2(a, b):
+    return a + b
+while True:
+    try:
+        num1 = float(input("Digite o primeiro número: "))
+        num2 = float(input("Digite o segundo número: "))
+        resultado = soma2(num1, num2) # Chamando a função e armazenando o resultado
+        print(f"A soma de {num1} e {num2} é: {resultado}")
+        break  # Sai do loop se a entrada for válida
+    except ValueError:
+        print("Por favor, digite apenas números válidos.")
+
 # Função com múltiplos parâmetros:
 def nomes(a, b, c):
     return f"Os nomes são: {a}, {b} e {c}"
