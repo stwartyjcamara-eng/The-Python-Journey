@@ -4,16 +4,27 @@
 [![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)](https://git-scm.com/)
 [![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?logo=visualstudiocode&logoColor=white)](https://code.visualstudio.com/)
 
-Repositório dedicado ao registro da minha jornada de aprendizado em Python. Aqui compartilho exercícios, anotações de estudo e pequenos projetos desenvolvidos ao longo dos cursos e práticas.
+Repositório dedicado ao registro do meu aprendizado prático em **Python 3**, cobrindo desde a lógica fundamental até conceitos intermediários e avançados, orientação a objetos (POO), frameworks e projetos práticos
 
 ---
 
 ## 📌 Progresso dos Módulos
 
-- [x] **Módulo 1:** Lógica de Programação Básica
-- [ ] **Módulo 2:** Python Intermediário _(Em andamento)_
-- [ ] **Módulo 3:** Programação Orientada a Objetos (POO)
-- [ ] **Módulo 4:** Tópicos Avançados & Módulos Específicos
+- [x] **01. Lógica de Programação Básica**
+  - Variáveis, tipos de dados e operadores
+  - Estruturas condicionais (`if`, `elif`, `else`)
+  - Estruturas de repetição (`while`, `for`)
+  - Listas, tuplas e dicionários básicos
+- [ ] **02. Python Intermediário (Em andamento 🚀)**
+  - [x] Funções (`def`, argumentos posicionais e nomeados)
+  - [x] Escopo de variáveis (`global`, `local`, `nonlocal`)
+  - [ ] `*args` e `**kwargs`
+  - [ ] Funções de alta ordem, closures e decoradores
+  - [ ] Manipulação de dicionários e sets
+  - [ ] List Comprehension e Generator Expressions
+- [ ] **03. Programação Orientada a Objetos (POO)**
+- [ ] **04. Módulos, Pacotes e Ambientes Virtuais**
+- [ ] **05. Projetos e Exercícios Práticos**
 
 ---
 
@@ -36,8 +47,9 @@ The-Python-Journey/
 
 ## 🛠️ Tecnologias e Ferramentas
 
-- **Linguagem:** Python `3.13+`
-- **Ambiente de Desenvolvimento:** Visual Studio Code (VS Code)
+- **Linguagem:** Python 3.12+
+- **Formatador:** Black Formatter (PEP 8)
+- **Editor/Ambiente:** VS Code / GitHub Codespaces
 - **Controle de Versão:** Git & GitHub
 
 ---
