@@ -10,7 +10,7 @@ Ex.:  746.824.890-70 (746824890)
 *  7   4  6  8  2  4  8  9  0
    70  36 48 56 12 20 32 27 0
 
-Somar todos os resultados: 
+Somar todos os resultados:
 70+36+48+56+12+20+32+27+0 = 301
 Multiplicar o resultado anterior por 10
 301 * 10 = 3010
@@ -23,19 +23,25 @@ contrário disso:
 
 O primeiro dígito do CPF é 7
 """
+
 while True:
-    cpf = input('Informe o CPF: ').lower().replace(".","").replace("-","").strip()
+    cpf = input("Informe o CPF: ").lower().replace(".", "").replace("-", "").strip()
     if cpf.isdigit():
         break
     else:
-        cpf = input('Por favor, digite números válido, Informe o CPF: ').lower().replace(".","").replace("-","").strip()
+        cpf = (
+            input("Por favor, digite números válido, Informe o CPF: ")
+            .lower()
+            .replace(".", "")
+            .replace("-", "")
+            .strip()
+        )
 
 cpf = cpf[:9]
 soma = 0
 for i in range(10, 1, -1):
-    soma += int(cpf[10-i]) * i
+    soma += int(cpf[10 - i]) * i
 digito = (soma * 10) % 11
 if digito > 9:
     digito = 0
-print(f'O primeiro dígito do CPF é {digito}')
-
+print(f"O primeiro dígito do CPF é {digito}")
