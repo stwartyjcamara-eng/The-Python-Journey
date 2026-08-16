@@ -86,3 +86,18 @@ def escopo_global():
 escopo_global()  # Chamando a função escopo_global para demonstrar o uso de a variável global
 print(f"Valor de x fora das funções: {x}")  # Acessa a variável global x
 # Sempre acessivel de dentro para fora, mas não o contrário. Variáveis locais só são acessíveis dentro da função onde foram definidas.
+
+"""
+Retorno de funções: Uma função pode retornar um valor usando a palavra-chave 
+return. 
+O valor retornado pode ser usado em outras partes do código.
+"""
+
+
+def soma(a, b):
+    # print(a + b) # Imprime a soma de a e b # erro, pois a função soma não retorna nenhum valor, apenas imprime a soma
+    return a + b  # Retorna a soma de a e b
+
+
+soma1 = soma(5, 3)  # Chamando a função soma e armazenando o resultado em soma1
+print(f"A soma de 5 e 3 é: {soma1}")  # Agora irá imprimir o resultado da soma
