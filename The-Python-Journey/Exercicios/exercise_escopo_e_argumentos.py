@@ -1,4 +1,14 @@
 """
+======================================================================
+Exercício: escopo e Argumentos em Funções
+Tópico:    Python Intermediário - Funções
+Origem:    Curso Udemy / LeetCode / HackerRank
+Arquivo:   exercise_escopo_e_argumentos.py
+Autor:     Stwarty J Camara
+======================================================================
+"""
+
+"""
 Exercício 1: Calculadora de Desconto com Argumentos Opcionais
 Foco: Parâmetros posicionais, parâmetros nomeados e valores padrão (default).
 
