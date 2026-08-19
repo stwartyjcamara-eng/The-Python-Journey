@@ -8,9 +8,8 @@ Autor:  Stwarty J Camara
 ======================================================================
 
 Descrição:
-    Este arquivo demonstra o uso de funções de ordem superior e closures em Python.
-    Ele inclui exemplos de funções que recebem outras funções como argumentos,
-    e funções que retornam outras funções, permitindo a criação de closures.
+    Este arquivo demonstra o conceito de funções de ordem superior (Higher Order Functions) e closures em Python,
+    mostrando como funções podem ser passadas como argumentos e retornadas como valores.
 """
 
 # Hier order function - Funções de primeira classe
@@ -50,3 +49,31 @@ for nome in ["Alice", "Bob", "Charlie"]:
 
 print(saudacao1("Luiz"))  # Saída: Olá, Bom dia, Luiz!
 print(saudacao2("Maria"))  # Saída: Olá, Boa noite, Maria!
+
+
+# Exercício
+# Crie funções que duplicam, triplicam e quadruplicam
+# o número recebido como parâmetro.
+
+
+def multiplicador(multiplicado):
+
+    def multiplicar(numero):
+        return numero * multiplicado
+
+    return multiplicar
+
+
+duplicar = multiplicador(2)
+triplicar = multiplicador(3)
+quadruplicar = multiplicador(4)
+
+print(f"O dobro de 5 é: {duplicar(5)}")  # Saída: 10
+print(f"O triplo de 5 é: {triplicar(5)}")  # Saída: 15
+print(f"O quadruplo de 5 é: {quadruplicar(5)}")  # Saída: 20
+
+# extra
+for i in [1, 2, 3, 4, 5]:
+    print(f"O dobro de {i} é: {multiplicador(2)(i)}")  # Saída: 2, 4, 6, 8, 10
+    print(f"O triplo de {i} é: {multiplicador(3)(i)}")  # Saída: 3, 6, 9, 12, 15
+    print(f"O quadruplo de {i} é: {multiplicador(4)(i)}")  # Saída: 4, 8, 12, 16, 20

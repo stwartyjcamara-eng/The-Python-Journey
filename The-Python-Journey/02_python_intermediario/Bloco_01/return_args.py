@@ -64,3 +64,15 @@ outra_soma = soma(*numeros)  # Usando a função sum() para somar os elementos d
 print(outra_soma)  # Saída: 15
 print(sum((1, 2, 3, 4, 5)))  # Saída: 15
 print(sum(numeros))  # Saída: 15
+
+"""
+# Teste
+def n(n1):
+    if n1 > 1:
+        print("numero 1")
+    else:
+        print("numero 0")
+
+
+n(int(input("Informe o numero: ")))
+"""
